@@ -1,0 +1,86 @@
+$color1:#fff;
+$color2:#343f55;
+$btncolor:#61779f;
+$mainfont:'Muli', sans-serif;
+* {
+    font-family: $mainfont;
+}
+.container2{
+    margin-right: 120px;
+    margin-left: 120px;
+}
+#header{
+    position: fixed;
+    width: 100%;
+    padding: 15px 0;
+    h2{
+        color: $color1;
+    }
+    .menu{
+        li{
+            padding: 12px 15px;
+            a{
+                color:#fff;
+            }
+        }
+    }
+}
+/*Header end*/
+/*Interiors start*/ 
+#interiors{
+    background: $color2;
+    color: #fff;
+    .interiors-left{
+        h1{
+           
+            font-size: 5.2em;
+        }
+            p{
+                width: 75%;
+                letter-spacing: .2px;
+                font-size: 1.25em;
+                line-height: 1.8;
+                margin: 35px 0 48px 0;
+            }
+            
+        }
+    
+    .interiors-right{
+        background-image: url(../photo/hero-img.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 820px;
+    }
+}
+.btnpro{
+    &:hover{
+        background: #fff;
+        color: black;
+    }
+    background: $btncolor;
+    color: #fff;
+}
+/*Interiors end*/ 
+/*Functional start*/ 
+#functional{
+    margin: 150px 0;
+    .func-right{
+        position: relative;
+        .func-background{
+            position: absolute;
+            width: 80%;
+            height: 670px;
+            right: -70px;
+            top: -70px;
+            background: #eff1f5;
+            z-index: -5;
+        }
+    }
+}
+
+@media(max-width:768px){
+    .func-background{
+        display: none;
+    }
+}

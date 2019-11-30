@@ -1,0 +1,90 @@
+* {
+  font-family: "Muli", sans-serif;
+}
+
+.container2 {
+  margin-right: 120px;
+  margin-left: 120px;
+}
+
+#header {
+  position: fixed;
+  width: 100%;
+  padding: 15px 0;
+}
+
+#header h2 {
+  color: #fff;
+}
+
+#header .menu li {
+  padding: 12px 15px;
+}
+
+#header .menu li a {
+  color: #fff;
+}
+
+/*Header end*/
+/*Interiors start*/
+#interiors {
+  background: #343f55;
+  color: #fff;
+}
+
+#interiors .interiors-left h1 {
+  font-size: 5.2em;
+}
+
+#interiors .interiors-left p {
+  width: 75%;
+  letter-spacing: .2px;
+  font-size: 1.25em;
+  line-height: 1.8;
+  margin: 35px 0 48px 0;
+}
+
+#interiors .interiors-right {
+  background-image: url(../photo/hero-img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 820px;
+}
+
+.btnpro {
+  background: #61779f;
+  color: #fff;
+}
+
+.btnpro:hover {
+  background: #fff;
+  color: black;
+}
+
+/*Interiors end*/
+/*Functional start*/
+#functional {
+  margin: 150px 0;
+}
+
+#functional .func-right {
+  position: relative;
+}
+
+#functional .func-right .func-background {
+  position: absolute;
+  width: 80%;
+  height: 670px;
+  right: -70px;
+  top: -70px;
+  background: #eff1f5;
+  z-index: -5;
+}
+
+@media (max-width: 768px) {
+  .func-background {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
